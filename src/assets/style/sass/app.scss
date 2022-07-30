@@ -1,5 +1,25 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// @font-face {
+//     font-family: Merriweather-Regular;
+//     src: local('Merriweather-Regular.ttf');
+//     }
+
+// @font-face {
+//     font-family: Miller-Display_30501;
+//     src: local('assets/fonts/Miller-Display_30501.ttf');
+//     }
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('assets/fonts/Montserrat-Bold.ttf');
+    }
+
+// @font-face {
+//     font-family: Montserrat-Regular;
+//     src: local('assets/fonts/Montserrat-Regular.ttf');
+//     }
 
 // Utils
 @import './utils/variables';
@@ -14,39 +34,124 @@
 // Homepgae
 @import './pages/homepage.scss';
 
-// #19bc9c
-// #1db899
-// #22b397
-// #26af94
-// #2aab91
-// #2fa68f
-// #33a28c
-// #379e8a
-// #3b9a87
-// #409584
-// #449182
-// #488d7f
-// #4d887d
-// #51847a
-// #558077
-// #597c75
-// #5e7772
-// #627370
-// #666f6d
-// #6b6b6b
+// Vh
+.vh_100{
+    height: 100vh;
+}
+
+.vh_10{
+    height: 10vh;
+}
+
+// Transofrm
+.text_uppercase{
+    text-transform: uppercase;
+}
+
+// Flex
+.d_flex{
+    @include flexbox;
+}
+
+.align_center{
+    align-items: center;
+}
+
+.flex_between{
+    @include justify-content($value: space-between)
+}
+
+.flex_column{
+    @include flex-direction($direction: column);
+}
+
+.flex_center{
+    justify-content: center;
+}
+
+// Width
+.w_5{
+    width: 5%;
+}
+
+.w_15{
+    width: 15%;
+}
+
+.w_20{
+    width: 20%;
+}
+
+.w_30{
+    width: 30%;
+}
+
+.w_70{
+    width: 70%;
+}
 
 
-// #d2f8f1
-// #a5f2e3
-// #78ecd5
-// #4be6c7
-// #1ee0b9
-// #18b394
-// #12866f
-// #0c594a
+.w_80{
+    width: 80%;
+}
 
+.w_90{
+    width: 90%;
+}
 
+.w_100{
+    width: 100%;
+}
 
+.w_300px{
+    width: 300px;
+}
 
+// Height
+.h_100{
+    height: 100%;
+}
 
+// Text-color
+.text_white{
+    color: white;
+}
 
+// Background-color
+.bg_beige{
+    background-color: #d0c5b6;
+}
+
+.m_0{
+    margin: 0;
+}
+
+.m_0_auto{
+    margin: 0 auto;
+}
+
+//Font-size
+.fs_06{
+    font-size: 0.6rem;
+}
+
+.fs_1_08{
+    font-size: 1.8rem;
+}
+
+.fs_1_02{
+    font-size: 1.2rem;
+}
+
+.fs_1{
+    font-size: 1rem;
+}
+
+.middle {
+    width: 800px;
+    height: 600px;
+}
+
+.text_primary{
+    color: blue;
+}
