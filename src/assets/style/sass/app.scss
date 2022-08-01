@@ -48,6 +48,14 @@
     text-transform: uppercase;
 }
 
+.text_center{
+    text-align: center;
+}
+
+.text_middle{
+    vertical-align: middle;
+}
+
 // Flex
 .d_flex{
     @include flexbox;
@@ -84,6 +92,10 @@
 
 .w_30{
     width: 30%;
+}
+
+.w_60{
+    width: 60%;
 }
 
 .w_70{
@@ -154,4 +166,21 @@
 
 .text_primary{
     color: blue;
+}
+
+// Margin
+.ml-200{
+    margin-left: 200px;
+}
+
+.bg_apple_desk{
+    background-image: require('../../img/gabriel-beaudry-ntX2TjKrzLc-unsplash.jpg');
+}
+
+.p_relative{
+    position: relative;
+}
+
+.p_absolute{
+    position: absolute;
 }
