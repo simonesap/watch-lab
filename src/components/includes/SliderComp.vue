@@ -42,7 +42,7 @@
                                     <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
                                 </div>
                                 <img  class="w_100" :src="backgroundImage[indexImg].url" :class="(indexImg == 0) ? 'opa' : '' " alt="index">
-                                <div class="jumbo_text text_white d_flex flex_wrap"> 
+                                <div v-if="indexImg == 0" class="jumbo_text text_white d_flex flex_wrap"> 
                                     <!-- v-if="indexImg == 0" -->
                                     <h4 class="text_uppercase text_center">london collection season</h4>
                                     <h2 class="text_center mt-56 fs_4">New Selection Of Herny London</h2>
