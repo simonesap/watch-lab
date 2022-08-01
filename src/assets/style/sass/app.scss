@@ -48,8 +48,16 @@
     text-transform: uppercase;
 }
 
+.text_capital{
+    text-transform: capitalize;
+}
+
 .text_center{
     text-align: center;
+}
+
+.text_right{
+    text-align: right;
 }
 
 .text_middle{
@@ -75,6 +83,10 @@
 
 .flex_center{
     justify-content: center;
+}
+
+.flex_wrap{
+    flex-wrap: wrap;
 }
 
 // Width
@@ -134,6 +146,10 @@
     background-color: #d0c5b6;
 }
 
+.bg_white{
+    background-color: white;
+}
+
 .m_0{
     margin: 0;
 }
@@ -157,6 +173,18 @@
 
 .fs_1{
     font-size: 1rem;
+}
+
+.fs_2{
+    font-size: 2rem;
+}
+
+.fs_3{
+    font-size: 3rem;
+}
+
+.fs_4{
+    font-size: 4rem;
 }
 
 .middle {
@@ -183,4 +211,34 @@
 
 .p_absolute{
     position: absolute;
+}
+
+.mt-200{
+    margin-top: 200px;
+} 
+
+.ml-230{
+    margin-left: 230px;
+}
+
+.mt-170{
+    margin-top: 170px;
+} 
+
+.ml-200{
+    margin-left: 200px;
+}
+
+.ml-4{
+    margin-left: 4px;
+}
+
+.henry_london_black{
+    background-color: rgba(2,2,2,255);
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
 }

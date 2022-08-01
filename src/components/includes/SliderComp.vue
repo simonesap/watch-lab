@@ -3,41 +3,57 @@
         <div>
             <div>
                 <div class="w_100">    
+
+                    <!--Carousel-->
                     <div class="myCarousel-box">
                         
-                        <div class="myCarousel-item">
+                        <div class="myCarousel-item" :class="(indexImg == 1) ? 'henry_london_black' : '' ">
 
-                            <div v-if="indexImg == 2" class="d_flex flex_column">
+                            <!--Watch-img-->
+                            <div v-if="indexImg == 1">
+                                <div>
+                                    <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
+                                </div>
+                                <img  class="w_100" :src="backgroundImage[indexImg].url" alt="index">
+                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
+                                    <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
+                                    <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
+                                </div>
+                            </div>
+
+                            <!--Apple-img-->
+                            <div v-if="indexImg == 3" class="d_flex flex_column">
 
                                 <div class="mt-48 d_flex flex_between flex_column">
                                     <div v-if="indexImg != 0" class="">
-                                        <h4 @click="prev()" :class="(indexImg != 1 & indexImg != 2) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i> Previous</h4>
+                                        <h4 @click="prev()" :class="(indexImg != 2 & indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i> Previous</h4>
                                     </div>
                                     <div class="w_15 ml-100">
                                         <h2 class="text_uppercase">watch/lab</h2>
                                     </div>
                                     <div class="bg_apple_desk"></div>
-                                    <div class="">
-                                        <h4  @click="next()" :class="(indexImg != 1 & indexImg != 2) ? 'text_white' : '' " role="button" class="arrow-rgt text_uppercase">Next <i class="fa-solid fa-angle-right ml-8"></i></h4>
-                                    </div>
                                 </div>
                                 
                             </div>
 
-                            <div class="p_relative">
-                                <div v-if="indexImg != 0 & indexImg != 2" class="">
-                                    <h4 @click="prev()" :class="(indexImg != 2) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
+                            <!-- != from img-1 -->
+                            <div v-if="indexImg != 1" class="p_relative d_flex flex_center">
+                                <div v-if="indexImg != 0 & indexImg != 3" class="">
+                                    <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
                                 </div>
-                                <img class="w_100" :src="backgroundImage[indexImg].url" alt="index">
-                                <div class="jumbo_text"> 
+                                <img  class="w_100" :src="backgroundImage[indexImg].url" :class="(indexImg == 0) ? 'opa' : '' " alt="index">
+                                <div class="jumbo_text text_white d_flex flex_wrap"> 
                                     <!-- v-if="indexImg == 0" -->
                                     <h4 class="text_uppercase text_center">london collection season</h4>
-                                    <h2 class="text_center">New Selection Of Herny London</h2>
-                                    <div></div>
-                                    <div></div>
+                                    <h2 class="text_center mt-56 fs_4">New Selection Of Herny London</h2>
+                                    <p class="text_center mt-24 w_100">An estimable experience in the modern collection house</p>
+                                    <button class="text_capital text_center mt-72 pt-16 pb-16 pl-64 pr-64 btn fs_1_02 text_white">discover</button>
                                 </div>
-                                <div v-if="indexImg != 2" class="">
-                                    <h4 @click="next()" :class="(indexImg != 2) ? 'text_white' : '' " role="button" class="arrow-rgt text_uppercase">Next <i class="fa-solid fa-angle-right ml-8"></i></h4>
+                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
+                                    <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
+                                    <h4 v-if="indexImg == 0" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
+                                    <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
+                                    <h4 v-if="indexImg != 0 & indexImg != 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                 </div>
                             </div>
                             
@@ -60,7 +76,8 @@ export default {
             indexImg: 0,
             timer: null,
             backgroundImage: [
-                { url: require("../../assets/img/nastuh-abootalebi-J1rNS2qv8BQ-unsplash.jpg") },
+                { url: require("../../assets/img/damir-kopezhanov-VM1Voswbs0A-unsplash.jpg") },
+                { url: require("../../assets/img/Henry-London (1).webp") },
                 { url: require("../../assets/img/gabriel-beaudry-ntX2TjKrzLc-unsplash.jpg") },
                 { url: require("../../assets/img/kisspng-imac-macbook-pro-graphics-cards-video-adapters-mac-5abc4645d4b808.8436230515222881978713.png") },
             ],
@@ -83,9 +100,9 @@ export default {
         this.timer = setInterval(this.next, 8000);
         }
     },
-    mounted: function() {
-        this.startSlide();
-  }
+//     mounted: function() {
+//         this.startSlide();
+//   }
 }
 </script>
 
@@ -170,13 +187,38 @@ export default {
         }
 
         .jumbo_text{
+            width: 600px;
             display: flex;
             align-items: center;
             justify-content: center;
             position: absolute;
-            top: 50%;
+            top: 20%;
+            padding: 4px 4px;
+        }
+
+        .next_container{
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 85%;
+            right: -100px;
             transform: translate(-50%,-50%);
             padding: 4px 4px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .text_hover:hover {
+            color: rgba(245, 18, 18, 0.925);    
+        }
+
+        .opa{
+            opacity: 0.9;
+            // filter: contrast(200%);
+            // filter: saturate(800%);
         }
 
 </style>
