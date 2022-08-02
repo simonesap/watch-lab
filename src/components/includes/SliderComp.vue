@@ -53,12 +53,12 @@
                                 </div>
                                 <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
-                                    <div v-if="indexImg == 0" class="jumbo_text text_white d_flex flex_wrap">
-                                        <h3 class="text_white w_40 ml-24">The Path to Success with Watchlab</h3>
+                                    <div v-if="indexImg == 0" class="jumbo_text_2 text_white d_flex flex_wrap">
+                                        <h3 class="text_white w_40 ml-neg">The Path to Success with Watchlab</h3>
                                     </div>
                                     <h4 v-if="indexImg == 0" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200 montserrat-bold">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                     <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230 montserrat-bold">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
-                                    <h4 v-if="indexImg != 0 & indexImg != 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200 montserrat-bold">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
+                                    <h4 v-if="indexImg != 0 & indexImg != 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-220 ml-200 montserrat-bold">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                 </div>
                             </div>
                             
@@ -83,8 +83,8 @@ export default {
             backgroundImage: [
                 { url: require("../../assets/img/damir-kopezhanov-VM1Voswbs0A-unsplash.jpg") },
                 { url: require("../../assets/img/Henry-London (1).webp") },
-                { url: require("../../assets/img/gabriel-beaudry-ntX2TjKrzLc-unsplash.jpg") },
-                { url: require("../../assets/img/kisspng-imac-macbook-pro-graphics-cards-video-adapters-mac-5abc4645d4b808.8436230515222881978713.png") },
+                { url: require("../../assets/img/Untitled (5).png") },
+                { url: require("../../assets/img/3D Transformer (Community) .png") },
             ],
         }
     },
@@ -201,13 +201,23 @@ export default {
             padding: 4px 4px;
         }
 
+        .jumbo_text_2{
+            width: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 10%;
+            padding: 4px 4px;
+        }
+
         .next_container{
             width: 300px;
             display: flex;
             align-items: center;
             justify-content: center;
             position: absolute;
-            top: 85%;
+            top: 83%;
             right: -100px;
             transform: translate(-50%,-50%);
             padding: 4px 4px;

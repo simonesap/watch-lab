@@ -1,8 +1,8 @@
 <template>
 
-  <div class="w_100">
+  <div class="w_100 bg_white">
 
-    <nav class="w_100 vh_15">
+    <nav class="w_100">
       <ul class="d_flex flex_between m_0">
         <li class="w_80 d_flex flex_between align_center m_0 montserrat-bold ">
           <a href="#" class="bg_beige p-16 m_0 text_uppercase mt-32 ml-32 d_flex align_center">
@@ -59,6 +59,12 @@ export default {
    // Font
    .montserrat-bold {
       font-family: 'Montserrat-Bold', sans-serif;
+   }
+
+   nav{
+      position: fixed;
+      z-index: 100;
+      background-color: white;
    }
 
 
