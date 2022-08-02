@@ -153,24 +153,24 @@
             <h2 class="fs_2 montserrat-bold">WATCH/LAB</h2>
           </div>
           <ul class="d_flex">
-            <li class="w_280px d_flex flex_wrap mr-72">
+            <li class="w_280px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap mr-72">
               <a class="mt-16 decoration_none w_100" href="#">Watch/Lab Innovation brings success</a>
               <a class="mt-16 decoration_none w_100" href="#">Via Borgogna 5, Milan</a>
               <a class="mt-16 decoration_none w_100" href="#">Italy</a>
             </li>
-            <li class="w_200px d_flex flex_wrap">
+            <li class="w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">About us</a>
               <a class="mt-16 decoration_none w_100" href="#">Brand</a>
               <a class="mt-16 decoration_none w_100" href="#">Projects</a>
               <a class="mt-16 decoration_none w_100" href="#">Magazine</a>
             </li>
-            <li class="w_200px d_flex flex_wrap">
+            <li class="w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">Press</a>
               <a class="mt-16 decoration_none w_100" href="#">Contacts</a>
               <a class="mt-16 decoration_none w_100" href="#">Privacy Polocy</a>
               <a class="mt-16 decoration_none w_100" href="#">Search</a>
             </li>
-            <li class="w_200px d_flex flex_wrap">
+            <li class="w_200px w_200px_950 w_100px_769 w_150px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">T. +39 392 9133937</a>
               <a class="mt-16 decoration_none w_100" href="#">M. info@watch-lab.it</a>
               <a class="mt-16 decoration_none w_100 montserrat-bold" href="#">FACEBOOK</a>

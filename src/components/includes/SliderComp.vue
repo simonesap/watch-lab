@@ -51,7 +51,7 @@
                                     <p class="text_center mt-24 w_100 montserrat-bold">An estimable experience in the modern collection house</p>
                                     <button class="text_capital text_center mt-72 pt-8 pb-8 pl-72 pr-72 btn fs_1_02 text_white merriweather-regular">discover</button>
                                 </div>
-                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
+                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white d_none_1248">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
                                     <div v-if="indexImg == 0" class="jumbo_text_2 text_white d_flex flex_wrap">
                                         <h3 class="text_white w_40 ml-neg">The Path to Success with Watchlab</h3>
@@ -113,13 +113,14 @@ export default {
 
 <style lang="scss">
 
-        .myCarousel-box[data-v-1f1efff0] {
-            display: flex;
-            // flex-direction: column;
-            flex-wrap: wrap;
-        }
+        // .myCarousel-box {
+        //     width: 100%;
+        //     display: flex;
+        //     // flex-direction: column;
+        //     flex-wrap: wrap;
+        // }
 
-        .myCarousel-box .myCarousel-item[data-v-1f1efff0] {
+        .myCarousel-box .myCarousel-item {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -132,6 +133,7 @@ export default {
             justify-content: space-between;
             flex-wrap: nowrap;
             position: relative;
+            width: 100%;
             
             .myCarousel-item {
                 display: flex;
