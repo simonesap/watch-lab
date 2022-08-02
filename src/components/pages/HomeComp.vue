@@ -8,11 +8,11 @@
     <SliderComp/>
 
     <main class="container_main">
-      <div class="vh_100 w_100 d_flex flex_wrap">
+      <div class="vh_70 w_100 d_flex flex_wrap">
         <div class="w_50">
-          <h2 class="mt-56 fs_4 w_80">History and Patriarcal season</h2>
+          <h2 class="mt-56 mb-24 fs_4 w_80">History and Patriarcal season</h2>
         </div>
-        <div class="w_100 d_flex">
+        <div class="w_100 d_flex mb-56">
           <div class="w_50">
             <p class="mt-8 gray fs_1_02 mb-56 w_80">
               On the other hand, we denounce with righteous
@@ -40,12 +40,12 @@
       <div class="text_center mb-40"> 
               <h4 class="mt-40 text_uppercase text_center">london collection season</h4>
               <h2 class="fs_3 text_center mt-32">Temporary Store</h2>
-              <p class="mlr_auto gray fs_1_02 mt-72 w_75">On the other hand, we denounce with righteous
+              <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
                                                           indignation and dislike men who are so beguiled and
                                                           demoralized by the charms of pleasure of the moment,
                                                           so blinded by desire
               </p>
-              <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-16 pb-16 pl-64 pr-64 btn_gold fs_1_02 gold">View</button>
+              <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-8 pb-8 pl-72 pr-72 btn_gold fs_1_02 gold">View</button>
           </div>
         </div>
         <div class="w_50">
@@ -61,13 +61,13 @@
           <div class="text_center mb-56"> 
               <!-- v-if="indexImg == 0" -->
               <h4 class="mt-56 text_uppercase text_center">london collection season</h4>
-              <h2 class="fs_3 text_center mt-32">New Collection Henry London</h2>
-              <p class="mlr_auto gray fs_1_02 mt-72 w_75">On the other hand, we denounce with righteous
+              <h2 class="fs_3 mlr_auto text_center mt-32 w_50">New Collection Henry London</h2>
+              <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
                                                           indignation and dislike men who are so beguiled and
                                                           demoralized by the charms of pleasure of the moment,
                                                           so blinded by desire
               </p>
-              <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-16 pb-16 pl-64 pr-64 btn_gold fs_1_02 gold">View</button>
+              <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-8 pb-8 pl-72 pr-72 btn_gold fs_1_02 gold">View</button>
           </div>
         </div>
       </div>
@@ -134,25 +134,55 @@
 
     </main>
 
-    <footer class="container_main d_flex flex_column mb-56">
-      <div class="h_30 bg_footer">
-        <div class="text_center mb-56 text_white"> 
+    <footer class="container_main d_flex flex_column mb-56 vh_130">
+      <div class="h_40 bg_footer p_relative">
+        <div class="bg_orange p_absolute w_100 h_100 d_flex flex_center">
+          <div class="text_center mb-56 text_white w_350px"> 
             <h2 class="fs_3 text_center mt-32">Get in Touch</h2>
-            <h4 class="mt-56 text_uppercase text_center">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</h4>
-            <div>
-              <button class="text_center mlr_auto mt-72 pt-16 pb-16 pl-64 pr-64 btn_gold fs_1_02" placeholder="type your email"></button>
-              <button class="mb-56 pt-16 pb-16 pl-64 pr-64 btn_gold fs_1_02">ok</button>
+            <h4 class="mt-24 text_uppercase text_center">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</h4>
+            <div class="d_flex">
+              <input type="text" class="text_white mlr_auto mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02" placeholder="type your email">
+              <button type="submit" class="text_white ml-16 mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02">ok</button>
             </div>
+          </div>
         </div>
       </div>
-      <div class="h_60 bg_black_footer">
-        <div><h2>WATCH/LAB</h2></div>
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+      <div class="h_60 bg_black_footer text_white d_flex flex_center flex_wrap align_center">
+        <div class="">
+          <div class="w_100 mb-40">
+            <h2 class="fs_2">WATCH/LAB</h2>
+          </div>
+          <ul class="d_flex">
+            <li class="w_280px d_flex flex_wrap mr-72">
+              <a class="mt-16 decoration_none w_100" href="#">Watch/Lab Innovation brings success</a>
+              <a class="mt-16 decoration_none w_100" href="#">Via Borgogna 5, Milan</a>
+              <a class="mt-16 decoration_none w_100" href="#">Italy</a>
+            </li>
+            <li class="w_200px d_flex flex_wrap">
+              <a class="mt-16 decoration_none w_100" href="#">About us</a>
+              <a class="mt-16 decoration_none w_100" href="#">Brand</a>
+              <a class="mt-16 decoration_none w_100" href="#">Projects</a>
+              <a class="mt-16 decoration_none w_100" href="#">Magazine</a>
+            </li>
+            <li class="w_200px d_flex flex_wrap">
+              <a class="mt-16 decoration_none w_100" href="#">Press</a>
+              <a class="mt-16 decoration_none w_100" href="#">Contacts</a>
+              <a class="mt-16 decoration_none w_100" href="#">Privacy Polocy</a>
+              <a class="mt-16 decoration_none w_100" href="#">Search</a>
+            </li>
+            <li class="w_200px d_flex flex_wrap">
+              <a class="mt-16 decoration_none w_100" href="#">T. +39 392 9133937</a>
+              <a class="mt-16 decoration_none w_100" href="#">M. info@watch-lab.it</a>
+              <a class="mt-16 decoration_none w_100" href="#">FACEBOOK</a>
+              <a class="mt-16 decoration_none w_100" href="#">INSTAGRAM</a>
+            </li>
           </ul>
+        </div>
+      </div>
+      <div class="vh_10 bg_black_footer_2 d_flex align_center mb-56">
+        <div class="container_footer d_flex flex_between align_center">
+          <span class="gold">Copyright Watch/Lab all rights reserved</span>
+          <span class="gold">website by nssfactory</span>
         </div>
       </div>
     </footer>
@@ -213,8 +243,57 @@ export default {
     background-image: url('../../assets/img/scott-webb-p-0lWFknspg-unsplash.jpg');
     background-position: center;
     background-size: cover;
-    filter: opacity(0.8);
+    filter: opacity(0.6);
 }
-// filter: sepia(50%);
+
+  .bg_orange{
+    background-color: rgba(255, 166, 0, 0.129);
+  }
+  // filter: sepia(50%);
+
+  .bg_black_footer{
+    background-color: #333333;
+  }
+
+  .bg_black_footer_2{
+    background-color: #303030;
+  }
+
+  input::placeholder {
+    color: white;
+    text-align: start;
+    margin-left: 0;
+  }
+
+  .t_50{
+    top: 50%;
+  }
+
+  .left_50{
+    left: 50%;
+  }
+
+  footer{
+    span{
+      color: #e5ded6;
+    }
+    a{
+      color: #e5ded6;
+    }
+    a:hover{
+      cursor: pointer;
+       color: #a7a8b1;
+    }
+  }
+
+  input:hover{
+      cursor: pointer;
+       color: #a7a8b1;
+    }
+
+  button:hover{
+    cursor: pointer;
+      color: #a7a8b1;
+  }
 
 </style>

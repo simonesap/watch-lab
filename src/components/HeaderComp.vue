@@ -9,29 +9,29 @@
              <h3 class="text_white fs_1_08">watch/lab</h3>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">About us</h5>
+             <h5 class="fs_1_02">About us</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">Brand</h5>
+             <h5 class="fs_1_02">Brand</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">Projects</h5>
+             <h5 class="fs_1_02">Projects</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">Magazine</h5>
+             <h5 class="fs_1_02">Magazine</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">Press</h5>
+             <h5 class="fs_1_02">Press</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center">
-             <h5 class="fs_1">Contacts</h5>
+             <h5 class="fs_1_02">Contacts</h5>
           </a>
         </li>
         <li class="w_30 d_flex flex_between">
           <div></div>
           <a href="#" class="p-16 d_flex align_center">
-              <div class="border_search align_self_end mb-16"></div>
-              <i class="fas fa-search"></i>
+              <input class="border_search align_self_end mb-16">
+              <i type="submit" class="fas fa-search"></i>
           </a>
           <div class="mr-32"></div>
         </li>
@@ -59,5 +59,25 @@ body{
    font-family: 'Montserrat-Bold';
    font-size: 12px;
 }
+
+   a{
+      color: black;
+   }
+
+   a:hover{
+         cursor: pointer;
+         color: #a7a8b1;
+      }
+  
+
+  input:hover{
+      cursor: pointer;
+       color: #a7a8b1;
+    }
+
+  button:hover{
+    cursor: pointer;
+      color: #a7a8b1;
+  }
 
 </style>

@@ -14,10 +14,13 @@
                                 <div>
                                     <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 arrow-lft text_uppercase"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
                                 </div>
-                                <img  class="w_100" :src="backgroundImage[indexImg].url" alt="index">
+                                <img :class="(indexImg == 1) ? 'opa_05' : '' "   class="w_100" :src="backgroundImage[indexImg].url" alt="index">
                                 <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
                                     <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
+                                </div>
+                                <div v-if="indexImg == 1" class="jumbo_text text_white d_flex flex_wrap">
+                                    <h2 class="text_white fs_3 mt-8 w_75">The Path to Success with Watchlab</h2>
                                 </div>
                             </div>
 
@@ -43,14 +46,16 @@
                                 </div>
                                 <img  class="w_100" :src="backgroundImage[indexImg].url" :class="(indexImg == 0) ? 'opa' : '' " alt="index">
                                 <div v-if="indexImg == 0" class="jumbo_text text_white d_flex flex_wrap"> 
-                                    <!-- v-if="indexImg == 0" -->
                                     <h4 class="text_uppercase text_center">london collection season</h4>
                                     <h2 class="text_center mt-56 fs_4">New Selection Of Herny London</h2>
                                     <p class="text_center mt-24 w_100">An estimable experience in the modern collection house</p>
-                                    <button class="text_capital text_center mt-72 pt-16 pb-16 pl-64 pr-64 btn fs_1_02 text_white">discover</button>
+                                    <button class="text_capital text_center mt-72 pt-8 pb-8 pl-72 pr-72 btn fs_1_02 text_white">discover</button>
                                 </div>
                                 <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
+                                    <div v-if="indexImg == 0" class="jumbo_text text_white d_flex flex_wrap">
+                                        <h3 class="text_white w_40 ml-24">The Path to Success with Watchlab</h3>
+                                    </div>
                                     <h4 v-if="indexImg == 0" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                     <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                     <h4 v-if="indexImg != 0 & indexImg != 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-200 ml-200">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
@@ -97,7 +102,7 @@ export default {
             }
         },
         startSlide: function() {
-        this.timer = setInterval(this.next, 8000);
+        this.timer = setInterval(this.next, 10000);
         }
     },
 //     mounted: function() {
