@@ -22,16 +22,8 @@ export default {
 <style lang="scss">
 @import './assets/style/sass/app.scss';
 
-// @font-face {
-//   font-family: 'Merriweather-Regular';
-//   src: url('C:\Users\matte\OneDrive\Desktop\Projects\VsCode\Freelance\watch-lab\src\assets\fonts\Merriweather-Regular.ttf');
-// }
-
-@font-face {
-  font-family: 'Montserrat-Bold';
-  src: url('C:\Users\matte\OneDrive\Desktop\Projects\VsCode\Freelance\watch-lab\src\assets\fonts\Montserrat-Bold.ttf');
+body{
+  font-family: 'Merriweather-Regular', serif;
 }
-
-  
 
 </style>

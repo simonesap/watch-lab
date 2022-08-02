@@ -38,7 +38,7 @@
       <div class="w_100 d_flex align_center">
         <div class="w_50">
       <div class="text_center mb-40"> 
-              <h4 class="mt-40 text_uppercase text_center">london collection season</h4>
+              <h4 class="mt-40 text_uppercase text_center montserrat-bold">london collection season</h4>
               <h2 class="fs_3 text_center mt-32">Temporary Store</h2>
               <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
                                                           indignation and dislike men who are so beguiled and
@@ -60,7 +60,7 @@
         <div class="w_50">
           <div class="text_center mb-56"> 
               <!-- v-if="indexImg == 0" -->
-              <h4 class="mt-56 text_uppercase text_center">london collection season</h4>
+              <h4 class="mt-56 text_uppercase text_center montserrat-bold">london collection season</h4>
               <h2 class="fs_3 mlr_auto text_center mt-32 w_50">New Collection Henry London</h2>
               <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
                                                           indignation and dislike men who are so beguiled and
@@ -92,8 +92,8 @@
           <div class="d_flex flex_between">
             <div class="w_50"></div>
             <div class="w_50">
-              <h4 class="mt-190 text_uppercase">PRESS</h4>
-              <h4 class="text_uppercase gold">18 SETTEMBRE 2015</h4>
+              <h4 class="mt-190 text_uppercase montserrat-bold">PRESS</h4>
+              <h4 class="text_uppercase gold montserrat-bold">18 SETTEMBRE 2015</h4>
             </div>
           </div>
           <div class="d_flex">
@@ -139,7 +139,7 @@
         <div class="bg_orange p_absolute w_100 h_100 d_flex flex_center">
           <div class="text_center mb-56 text_white w_350px"> 
             <h2 class="fs_3 text_center mt-32">Get in Touch</h2>
-            <h4 class="mt-24 text_uppercase text_center">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</h4>
+            <span class="mt-24 text_uppercase text_center montserrat-bold">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</span>
             <div class="d_flex">
               <input type="text" class="text_white mlr_auto mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02" placeholder="type your email">
               <button type="submit" class="text_white ml-16 mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02">ok</button>
@@ -150,7 +150,7 @@
       <div class="h_60 bg_black_footer text_white d_flex flex_center flex_wrap align_center">
         <div class="">
           <div class="w_100 mb-40">
-            <h2 class="fs_2">WATCH/LAB</h2>
+            <h2 class="fs_2 montserrat-bold">WATCH/LAB</h2>
           </div>
           <ul class="d_flex">
             <li class="w_280px d_flex flex_wrap mr-72">
@@ -173,8 +173,8 @@
             <li class="w_200px d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">T. +39 392 9133937</a>
               <a class="mt-16 decoration_none w_100" href="#">M. info@watch-lab.it</a>
-              <a class="mt-16 decoration_none w_100" href="#">FACEBOOK</a>
-              <a class="mt-16 decoration_none w_100" href="#">INSTAGRAM</a>
+              <a class="mt-16 decoration_none w_100 montserrat-bold" href="#">FACEBOOK</a>
+              <a class="mt-16 decoration_none w_100 montserrat-bold" href="#">INSTAGRAM</a>
             </li>
           </ul>
         </div>
@@ -236,7 +236,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../../assets/style/sass/app.scss';
 
   .bg_footer{
@@ -295,5 +295,19 @@ export default {
     cursor: pointer;
       color: #a7a8b1;
   }
+
+  // Font
+        .montserrat-bold {
+            font-family: 'Montserrat-Bold', sans-serif;
+        }
+
+        // Font
+        .montserrat {
+            font-family: 'Montserrat-Regular', sans-serif;
+        }
+
+        .merriweather-regular{
+            font-family: 'Merriweather-Regular', serif;
+        }
 
 </style>

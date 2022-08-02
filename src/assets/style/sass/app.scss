@@ -1,25 +1,25 @@
 // Fonts
 // @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// @font-face {
-//     font-family: Merriweather-Regular;
-//     src: local('Merriweather-Regular.ttf');
-//     }
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: local('Merriweather-Regular.ttf');
+    }
 
-// @font-face {
-//     font-family: Miller-Display_30501;
-//     src: local('assets/fonts/Miller-Display_30501.ttf');
-//     }
+@font-face {
+    font-family: 'Miller-Display_30501';
+    src: local('assets/fonts/Miller-Display_30501.ttf');
+    }
 
 @font-face {
     font-family: 'Montserrat-Bold';
     src: local('assets/fonts/Montserrat-Bold.ttf');
     }
 
-// @font-face {
-//     font-family: Montserrat-Regular;
-//     src: local('assets/fonts/Montserrat-Regular.ttf');
-//     }
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('assets/fonts/Montserrat-Regular.ttf');
+    }
 
 // Utils
 @import './utils/variables';
@@ -446,4 +446,8 @@
 
 .opa_05{
     opacity: 0.5;
+}
+
+.opa_06_hov:hover{
+    opacity: 0.6;
 }
