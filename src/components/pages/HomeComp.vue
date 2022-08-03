@@ -7,14 +7,14 @@
     <!--Jumbo-->
     <SliderComp/>
 
-    <main class="container_main">
-      <div class="vh_70 w_100 d_flex flex_wrap">
-        <div class="w_50">
-          <h2 class="mt-56 mb-24 fs_4 w_80">History and Patriarcal season</h2>
+    <main class="container_main container_main_none_560">
+      <div class="vh_70 w_100 flex_section_1 d_flex flex_wrap">
+        <div class="w_50 w_75_560">
+          <h2 class="mt-56 mb-24 fs_4 fs_2_custom">History and Patriarcal season</h2>
         </div>
-        <div class="w_100 d_flex mb-56">
+        <div class="w_100 flex_section_1 d_flex mb-56">
           <div class="w_50">
-            <p class="mt-8 gray fs_1_02 mb-56 w_80">
+            <p class="mt-8 gray fs_1_02 mb-56 w_80 w_100_560">
               On the other hand, we denounce with righteous
               indignation and dislike men who are so beguiled and
               demoralized by the charms of pleasure of the moment,
@@ -22,8 +22,8 @@
             </p>
           </div>
           
-          <div class="w_50">
-            <p class="mt-8 gray fs_1_02 mb-40 w_80">
+          <div class="w_50 w_75_560">
+            <p class="mt-8 gray fs_1_02 mb-40 w_80 w_100_560">
               But I must explain to you how all this mistaken idea of denouncing
               pleasure and praising pain was born and I will give you a complete
               account of the system, and expound the actual teachings of the great
@@ -35,48 +35,48 @@
         </div>
       </div>
 
-      <div class="w_100 d_flex align_center">
+      <div class="w_100 d_flex flex_section_4 align_center">
         <div class="w_50">
-      <div class="text_center mb-40"> 
+          <div class="text_center mb-40"> 
               <h4 class="mt-40 text_uppercase text_center montserrat-bold">london collection season</h4>
-              <h2 class="fs_3 text_center mt-32">Temporary Store</h2>
-              <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
-                                                          indignation and dislike men who are so beguiled and
-                                                          demoralized by the charms of pleasure of the moment,
-                                                          so blinded by desire
+              <h2 class="fs_3 text_center mt-32 fs_2_custom w_75_560">Temporary Store</h2>
+              <p class="mlr_auto gray fs_1_02 mt-72 w_60 w_100_560">On the other hand, we denounce with righteous
+                                                                    indignation and dislike men who are so beguiled and
+                                                                    demoralized by the charms of pleasure of the moment,
+                                                                    so blinded by desire
               </p>
               <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-8 pb-8 pl-72 pr-72 btn_gold fs_1_02 gold">View</button>
           </div>
         </div>
-        <div class="w_50">
+        <div class="w_50 w_100_560">
           <img class="w_100 h_100" src="../../assets/img/1.png" alt="">
         </div>
       </div>
 
-      <div class="w_100 d_flex align_center">
-        <div class="w_50">
+      <div class="w_100 d_flex align_center flex_section_reverse">
+        <div class="w_50 w_100_560">
           <img class="w_100 h_100 mb-56" src="../../assets/img/2.png" alt="">
         </div>
         <div class="w_50">
           <div class="text_center mb-56"> 
               <!-- v-if="indexImg == 0" -->
               <h4 class="mt-56 text_uppercase text_center montserrat-bold">london collection season</h4>
-              <h2 class="fs_3 mlr_auto text_center mt-32 w_50">New Collection Henry London</h2>
-              <p class="mlr_auto gray fs_1_02 mt-72 w_60">On the other hand, we denounce with righteous
-                                                          indignation and dislike men who are so beguiled and
-                                                          demoralized by the charms of pleasure of the moment,
-                                                          so blinded by desire
+              <h2 class="fs_3 mlr_auto text_center mt-32 w_50 w_75_560 fs_2_custom">New Collection Henry London</h2>
+              <p class="mlr_auto gray fs_1_02 mt-72 w_60 w_100_560">On the other hand, we denounce with righteous
+                                                                    indignation and dislike men who are so beguiled and
+                                                                    demoralized by the charms of pleasure of the moment,
+                                                                    so blinded by desire
               </p>
-              <button class="text_capital mb-56 text_center mlr_auto mt-72 pt-8 pb-8 pl-72 pr-72 btn_gold fs_1_02 gold">View</button>
+              <button class="text_capital mb-56 mb_56_1248 text_center mlr_auto mt-72 pt-8 pb-8 pl-72 pr-72 btn_gold fs_1_02 gold">View</button>
           </div>
         </div>
       </div>
 
-      <div class="w_100 vh_95 d_flex mt-56 mb-56 p_relative">
-        <div class="w_50 t_0">
-            <h2 class="p-0 fs_4 w_85">Press from</h2>
-            <h2 class="p-0 fs_4 w_80">Watch Lab Studio</h2>
-            <p class="mt-72 gray fs_1_02 mb-56 w_50 p-0">
+      <div class="w_100 vh_95 flex_section_1 flex_section_3 vh_60_custom d_flex mt-56 mb-56 p_relative">
+        <div class="w_50 t_0 w_100_560 w_100_1248">
+            <h2 class="p-0 fs_4 w_85 fs_2_custom w_100_12488">Press from</h2>
+            <h2 class="p-0 fs_4 w_80 mt_32_560 fs_2_custom w_100_1248 mb_1248">Watch Lab Studio</h2>
+            <p class="mt-72 gray fs_1_02 mb-56 w_50 w_100_1248 mt_24_auto_1248 w_75_560">
               On the other hand, we denounce with
               righteous indignation and dislike men
               who are so beguiled and demoralized
@@ -86,12 +86,12 @@
             </p>
         </div>
        
-        <img class="w_100 h_400 p_absolute w_600px main_slider" :src="sliderImg[indexImg].url" alt="index">
+        <img class="d_none_1248 w_100 h_400 p_absolute w_600px main_slider" :src="sliderImg[indexImg].url" alt="index">
      
-        <div class="w_50 ml-80 h_100 bg_light_gray">
-          <div class="d_flex flex_between">
-            <div class="w_50"></div>
-            <div class="w_50">
+        <div class="d_none_1248 w_50 ml-80 h_100 bg_light_gray">
+          <div class="d_flex flex_between flex_section_3">
+            <div class="w_50 w_100_1248"></div>
+            <div class="w_50 w_100_1248">
               <h4 class="mt-190 text_uppercase montserrat-bold">PRESS</h4>
               <h4 class="text_uppercase gold montserrat-bold">18 SETTEMBRE 2015</h4>
             </div>
@@ -112,11 +112,11 @@
         
       </div>
 
-      <div class="vh_80 mt-100 mb-56 d_flex">
-        <div class="w_50 h_100 pointer">
-          <img class="w_100 h_100" src="../../assets/img/1-f.png" alt="">
+      <div class="vh_80 mt-100 flex_section_1 mb-56 d_flex">
+        <div class="w_50 h_100 pointer w_100_560">
+          <img class="w_100 h_100 d_none_1248 d_block_560px" src="../../assets/img/1-f.png" alt="">
         </div>
-        <div class="w_50 h_100 d_flex flex_wrap">
+        <div class="w_50 h_100 h_50_560 flex_section_1 d_flex flex_wrap">
             <div class="w_2 h_50">
               <img class="w_100 h_100" src="../../assets/img/2-f.png" alt="">
             </div>
@@ -134,7 +134,7 @@
 
     </main>
 
-    <footer class="container_main d_flex flex_column mb-56 vh_130">
+    <footer class="container_main d_flex flex_column mb-56 vh_130 vh_130_custom">
       <div class="h_40 bg_footer p_relative">
         <div class="bg_orange p_absolute w_100 h_100 d_flex flex_center">
           <div class="text_center mb-56 text_white w_350px"> 
@@ -153,24 +153,24 @@
             <h2 class="fs_2 montserrat-bold">WATCH/LAB</h2>
           </div>
           <ul class="d_flex">
-            <li class="w_280px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap mr-72">
+            <li class="w_100px_480 w_280px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap mr-72">
               <a class="mt-16 decoration_none w_100" href="#">Watch/Lab Innovation brings success</a>
               <a class="mt-16 decoration_none w_100" href="#">Via Borgogna 5, Milan</a>
               <a class="mt-16 decoration_none w_100" href="#">Italy</a>
             </li>
-            <li class="w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
+            <li class="w_100px_480 d_none_1024 w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">About us</a>
               <a class="mt-16 decoration_none w_100" href="#">Brand</a>
               <a class="mt-16 decoration_none w_100" href="#">Projects</a>
               <a class="mt-16 decoration_none w_100" href="#">Magazine</a>
             </li>
-            <li class="w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
+            <li class="w_100px_480 d_none_560px w_200px w_200px_950 w_100px_769 w_200px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">Press</a>
               <a class="mt-16 decoration_none w_100" href="#">Contacts</a>
               <a class="mt-16 decoration_none w_100" href="#">Privacy Polocy</a>
               <a class="mt-16 decoration_none w_100" href="#">Search</a>
             </li>
-            <li class="w_200px w_200px_950 w_100px_769 w_150px_806 d_flex flex_wrap">
+            <li class="w_100px_480 w_200px w_200px_950 w_100px_769 w_150px_806 d_flex flex_wrap">
               <a class="mt-16 decoration_none w_100" href="#">T. +39 392 9133937</a>
               <a class="mt-16 decoration_none w_100" href="#">M. info@watch-lab.it</a>
               <a class="mt-16 decoration_none w_100 montserrat-bold" href="#">FACEBOOK</a>
@@ -182,7 +182,7 @@
       <div class="vh_10 bg_black_footer_2 d_flex align_center mb-56">
         <div class="container_footer d_flex flex_between align_center">
           <span class="gold">Copyright Watch/Lab all rights reserved</span>
-          <span class="gold">website by nssfactory</span>
+          <span class="gold d_none_674">website by nssfactory</span>
         </div>
       </div>
     </footer>

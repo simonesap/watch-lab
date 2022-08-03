@@ -11,16 +11,16 @@
 
                             <!--Watch-img-->
                             <div v-if="indexImg == 1">
-                                <div>
+                                <div class="d_none_1248">
                                     <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 opa_06_hov arrow-lft text_uppercase montserrat-bold"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
                                 </div>
                                 <img :class="(indexImg == 1) ? 'opa_05' : '' "   class="w_100" :src="backgroundImage[indexImg].url" alt="index">
-                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white">
+                                <div v-if="indexImg != 3" @click="next()" class="next_container bg_white d_none_1248">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
                                     <h4 v-if="indexImg == 1" :class="(indexImg == 0) ? 'text_white' : '' " role="button" class="text_uppercase text_hover p_absolute mt-170 ml-230 montserrat">Next <i class="fa-solid fa-angle-right ml-8 mr-8"></i> </h4>
                                 </div>
                                 <div v-if="indexImg == 1" class="jumbo_text text_white d_flex flex_wrap">
-                                    <h2 class="text_white fs_3 mt-8 w_75">The Path to Success with Watchlab</h2>
+                                    <h2 class="text_white fs_3 mt-8 w_75 fs_2_05_custom fs_2_05_custom">The Path to Success with Watchlab</h2>
                                 </div>
                             </div>
 
@@ -28,7 +28,7 @@
                             <div v-if="indexImg == 3" class="d_flex flex_column">
 
                                 <div class="mt-48 d_flex flex_between flex_column">
-                                    <div v-if="indexImg != 0" class="">
+                                    <div v-if="indexImg != 0" class="d_none_1248">
                                         <h4 @click="prev()" :class="(indexImg != 2 & indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 opa_06_hov arrow-lft text_uppercase montserrat-bold"><i class="fa-solid fa-angle-left mr-8"></i> Previous</h4>
                                     </div>
                                     <div class="w_15 ml-100">
@@ -39,17 +39,17 @@
                                 
                             </div>
 
-                            <!-- != from img-1 -->
+                            <!-- indexImg != 1 -->
                             <div v-if="indexImg != 1" class="p_relative d_flex flex_center">
-                                <div v-if="indexImg != 0 & indexImg != 3" class="">
+                                <div v-if="indexImg != 0 & indexImg != 3" class="d_none_1248">
                                     <h4 @click="prev()" :class="(indexImg != 3) ? 'text_white' : '' " role="button" class="ml-24 opa_06_hov arrow-lft text_uppercase montserrat-bold"><i class="fa-solid fa-angle-left mr-8"></i>Previous</h4>
                                 </div>
                                 <img  class="w_100" :src="backgroundImage[indexImg].url" :class="(indexImg == 0) ? 'opa' : '' " alt="index">
                                 <div v-if="indexImg == 0" class="jumbo_text text_white d_flex flex_wrap"> 
-                                    <span class="text_uppercase text_center montserrat-bold">london collection season</span>
-                                    <h2 class="text_center mt-56 fs_4">New Selection Of Herny London</h2>
-                                    <p class="text_center mt-24 w_100 montserrat-bold">An estimable experience in the modern collection house</p>
-                                    <button class="text_capital text_center mt-72 pt-8 pb-8 pl-72 pr-72 btn fs_1_02 text_white merriweather-regular">discover</button>
+                                    <span class="fs_08_custom d_none_950 text_uppercase text_center montserrat-bold">london collection season</span>
+                                    <h2 class="text_center fs_2_05_custom fs_1_08_custom  mt-56 fs_4">New Selection Of Herny London</h2>
+                                    <p class="d_none_480px text_center fs_08_custom fs_2_05_custom  mt-24 w_100 montserrat-bold">An estimable experience in the modern collection house</p>
+                                    <button class="d_none_640px text_capital text_center mt-72 pt-8 pb-8 pl-72 pr-72 btn fs_1_02 text_white merriweather-regular">discover</button>
                                 </div>
                                 <div v-if="indexImg != 3" @click="next()" class="next_container bg_white d_none_1248">
                                     <img class="w_100 p_relative" :src="backgroundImage[indexImg + 1].url" alt="index">
@@ -102,23 +102,16 @@ export default {
             }
         },
         startSlide: function() {
-        this.timer = setInterval(this.next, 10000);
+        this.timer = setInterval(this.next, 8000);
         }
     },
-//     mounted: function() {
-//         this.startSlide();
-//   }
+    mounted: function() {
+        this.startSlide();
+  }
 }
 </script>
 
 <style lang="scss">
-
-        // .myCarousel-box {
-        //     width: 100%;
-        //     display: flex;
-        //     // flex-direction: column;
-        //     flex-wrap: wrap;
-        // }
 
         .myCarousel-box .myCarousel-item {
             display: flex;

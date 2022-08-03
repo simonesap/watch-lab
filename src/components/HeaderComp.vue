@@ -11,7 +11,7 @@
           <a href="#" class="p-16 d_flex align_center d_none_1074">
              <h5 class="fs_1 fs_1_04_950">About us</h5>
           </a>
-          <a href="#" class="p-16 d_flex align_center d_none_560px">
+          <a href="#" class="p-16 d_flex align_center d_none_674">
              <h5 class="fs_1">Brand</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center d_none_560px">
@@ -20,7 +20,7 @@
           <a href="#" class="p-16 d_flex align_center d_none_560px">
              <h5 class="fs_1">Magazine</h5>
           </a>
-          <a href="#" class="p-16 d_flex align_center d_none_560px">
+          <a href="#" class="p-16 d_flex align_center d_none_769px">
              <h5 class="fs_1">Press</h5>
           </a>
           <a href="#" class="p-16 d_flex align_center d_none_806">
@@ -95,9 +95,6 @@ export default {
 <style lang="scss">
 @import '../assets/style/sass/app.scss';
 
-
-   
-
    // Font
    .montserrat-bold {
       font-family: 'Montserrat-Bold', sans-serif;
@@ -105,7 +102,7 @@ export default {
 
    nav{
       position: fixed;
-      z-index: 100;
+      z-index: 900;
       background-color: white;
    }
 
