@@ -9,12 +9,12 @@
 
     <main class="container_main container_main_none_560">
       <div class="vh_70 w_100 flex_section_1 d_flex flex_wrap">
-        <div class="w_50 w_75_560">
+        <div class="w_50 w_75_560 w_75_1248">
           <h2 class="mt-56 mb-24 fs_4 fs_2_custom">History and Patriarcal season</h2>
         </div>
         <div class="w_100 flex_section_1 d_flex mb-56">
-          <div class="w_50">
-            <p class="mt-8 gray fs_1_02 mb-56 w_80 w_100_560">
+          <div class="w_50 w_75_1248 w_75_560">
+            <p class="mt-8 gray fs_1_02 mb-56 w_80 w_100_560 w_100_1248">
               On the other hand, we denounce with righteous
               indignation and dislike men who are so beguiled and
               demoralized by the charms of pleasure of the moment,
@@ -22,8 +22,8 @@
             </p>
           </div>
           
-          <div class="w_50 w_75_560">
-            <p class="mt-8 gray fs_1_02 mb-40 w_80 w_100_560">
+          <div class="w_50 w_75_560 w_75_1248">
+            <p class="mt-8 gray fs_1_02 mb-40 w_80 w_100_560 w_100_1248">
               But I must explain to you how all this mistaken idea of denouncing
               pleasure and praising pain was born and I will give you a complete
               account of the system, and expound the actual teachings of the great
@@ -36,10 +36,10 @@
       </div>
 
       <div class="w_100 d_flex flex_section_4 align_center">
-        <div class="w_50">
+        <div class="w_50 w_75_1248">
           <div class="text_center mb-40"> 
-              <h4 class="mt-40 text_uppercase text_center montserrat-bold">london collection season</h4>
-              <h2 class="fs_3 text_center mt-32 fs_2_custom w_75_560">Temporary Store</h2>
+              <h4 class="mt-40 text_uppercase text_center montserrat-bold w_100_560 w_100_1248">london collection season</h4>
+              <h2 class="fs_3 text_center mt-32 fs_2_custom">Temporary Store</h2>
               <p class="mlr_auto gray fs_1_02 mt-72 w_60 w_100_560">On the other hand, we denounce with righteous
                                                                     indignation and dislike men who are so beguiled and
                                                                     demoralized by the charms of pleasure of the moment,
@@ -57,11 +57,11 @@
         <div class="w_50 w_100_560">
           <img class="w_100 h_100 mb-56" src="../../assets/img/2.png" alt="">
         </div>
-        <div class="w_50">
+        <div class="w_50 w_75_1248">
           <div class="text_center mb-56"> 
               <!-- v-if="indexImg == 0" -->
-              <h4 class="mt-56 text_uppercase text_center montserrat-bold">london collection season</h4>
-              <h2 class="fs_3 mlr_auto text_center mt-32 w_50 w_75_560 fs_2_custom">New Collection Henry London</h2>
+              <h4 class="mt-56 text_uppercase text_center montserrat-bold w_100_560 w_100_1248 mt_24_560">london collection season</h4>
+              <h2 class="fs_3 mlr_auto text_center mt-32 w_50 w_100_560 fs_2_custom">New Collection Henry London</h2>
               <p class="mlr_auto gray fs_1_02 mt-72 w_60 w_100_560">On the other hand, we denounce with righteous
                                                                     indignation and dislike men who are so beguiled and
                                                                     demoralized by the charms of pleasure of the moment,
@@ -72,11 +72,11 @@
         </div>
       </div>
 
-      <div class="w_100 vh_95 flex_section_1 flex_section_3 vh_60_custom d_flex mt-56 mb-56 p_relative">
-        <div class="w_50 t_0 w_100_560 w_100_1248">
+      <div class="w_100 vh_95 flex_section_1 flex_section_3 vh_40_custom d_flex mt-56 mb-56 p_relative">
+        <div class="w_50 t_0 w_75_560 w_75_1248">
             <h2 class="p-0 fs_4 w_85 fs_2_custom w_100_12488">Press from</h2>
-            <h2 class="p-0 fs_4 w_80 mt_32_560 fs_2_custom w_100_1248 mb_1248">Watch Lab Studio</h2>
-            <p class="mt-72 gray fs_1_02 mb-56 w_50 w_100_1248 mt_24_auto_1248 w_75_560">
+            <h2 class="p-0 fs_4 w_80 mt_32_560 fs_2_custom w_100_1248 mb_0_1248">Watch Lab Studio</h2>
+            <p class="mt-72 gray fs_1_02 mb-56 w_50 w_100_1248 w_100_560">
               On the other hand, we denounce with
               righteous indignation and dislike men
               who are so beguiled and demoralized
@@ -138,11 +138,11 @@
       <div class="h_40 bg_footer p_relative">
         <div class="bg_orange p_absolute w_100 h_100 d_flex flex_center">
           <div class="text_center mb-56 text_white w_350px"> 
-            <h2 class="fs_3 text_center mt-32">Get in Touch</h2>
-            <span class="mt-24 text_uppercase text_center montserrat-bold">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</span>
-            <div class="d_flex">
-              <input type="text" class="text_white mlr_auto mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02" placeholder="type your email">
-              <button type="submit" class="text_white ml-16 mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02">ok</button>
+            <h2 class="fs_3 text_center mt-32 fs_1_custom">Get in Touch</h2>
+            <span class="mt-24 text_uppercase text_center montserrat-bold fs_05_custom">DISCOVER MORE ABOUT NEWS, EXCLUSIVE EVENTS AND DISCOUNT</span>
+            <div class="d_flex mlr_0_auto_950">
+              <input type="text" class="text_white mlr_auto mlr_auto_950 mt-40 pt-16 pb-16 pl-24 pr-24 btn_gold fs_1_02 fs_08_custom mt-40_950 pt-16_950 pb-16_950 pl-24_950 pr-24_950" placeholder="type your email">
+              <button type="submit" class="text_white ml-16 ml-16_950 mt-40 pt-16 pb-16 pl-24 mlr_auto_950 pr-24 btn_gold fs_1_02 fs_08_custom mt-40_950 pt-16_950 pb-16_950 pl-24_950 pr-24_950">ok</button>
             </div>
           </div>
         </div>
